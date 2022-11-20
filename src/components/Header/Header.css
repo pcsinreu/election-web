@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.sample-header {
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.logo {
+    height: 50px;
+    align-self: flex-start;
+}
+
+.sample-header-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
