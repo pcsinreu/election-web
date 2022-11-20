@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/election-web/static/css/main.00c4315b.css",
+    "main.js": "/election-web/static/js/main.642ecd68.js",
+    "static/js/787.219ee99a.chunk.js": "/election-web/static/js/787.219ee99a.chunk.js",
+    "static/media/proceso-electoral.png": "/election-web/static/media/proceso-electoral.20c0985d87435f5f759a.png",
+    "static/media/gobierno-municipal.png": "/election-web/static/media/gobierno-municipal.9829beb142d3aeda688f.png",
+    "static/media/user.png": "/election-web/static/media/user.11231a303dcbc9fc01c2.png",
+    "static/media/logo.jpeg": "/election-web/static/media/logo.5d663341a86d69680f3f.jpeg",
+    "index.html": "/election-web/index.html",
+    "main.00c4315b.css.map": "/election-web/static/css/main.00c4315b.css.map",
+    "main.642ecd68.js.map": "/election-web/static/js/main.642ecd68.js.map",
+    "787.219ee99a.chunk.js.map": "/election-web/static/js/787.219ee99a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00c4315b.css",
+    "static/js/main.642ecd68.js"
+  ]
+}
