@@ -1,0 +1,27 @@
+.CandidateDetail{
+    margin: 20px;
+    background-color: beige;
+    border: solid 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.HojaDeVida{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-right: 1px solid #1C6EA4;
+}
+
+.Interactua{
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr;
+    border-top : 1px solid #1C6EA4;
+    border-bottom : 1px solid #1C6EA4;
+    border-right : 1px solid #1C6EA4;
+}
+
+.Comentarios{
+    border-bottom : 1px solid #1C6EA4;
+    border-right : 1px solid #1C6EA4;
+}

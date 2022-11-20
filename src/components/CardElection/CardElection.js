@@ -1,8 +1,17 @@
 import './CardElection.css'
+import { useNavigate } from 'react-router-dom';
+
 
 function CardElection(props) {
+
+const navigate = useNavigate(); 
+
+  const goNext =() =>{
+    navigate('/candidateList');
+  }
+
     return (
-      <div>
+      <div className='CardElection' onClick={goNext}>
         <img src={require(`./img/${props.image}.png`)}/>
         <div>
           {props.name}

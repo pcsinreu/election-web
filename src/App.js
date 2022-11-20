@@ -1,17 +1,21 @@
 import './App.css';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer'
-import Gobiernos from './components/Gobiernos/Gobiernos';
-import Body from './components/Body/Body';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './components/Home/Home'
+import CandidateList  from './components/CandidateList/CandidateList'
+import Layout from './components/Layout/Layout'
+import CandidateDetail from './components/CandidateDetail/CandidateDetail'
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Gobiernos />
-      <Body />
-      <Footer/>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="candidateList" element={<CandidateList />} />
+        <Route path="candidateDetail/:id" element={<CandidateDetail />} />
+      </Route>
+    </Routes>
+  </BrowserRouter>
   );
 }
 
